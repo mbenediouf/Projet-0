@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+}
+.div1{
+   background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(./images/background.png);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8%;
+}
+.logo{
+    width: 170px;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    text-align: right;
+    margin-left: 400px;
+    list-style: none;
+    
+}
+nav ul li{
+   margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.boutton{
+    display: flex;
+    align-items: center;
+    background-color:#f5168d;
+    padding: 13px;
+    justify-content: space-between;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 9px;
+    width: 110px;
+    color: #fff;
+    cursor: pointer;
+}
+.boutton img{
+    width: 20px;
+   padding-right: 2px;
+    
+}
+.div2{
+    padding: 8% 8%;
+}
+h1{
+    font-weight: bold;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+}
+p{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form input{
+    border: none;
+    outline: 0;
+}
+form .boutton{
+    margin-left: 260px;
+    height:25px;
+}
